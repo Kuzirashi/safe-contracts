@@ -975,7 +975,7 @@
     web3-utils "1.6.1"
     xhr2-cookies "^1.1.0"
 
-"@polyjuice-provider/ethers@^0.1.3":
+"@polyjuice-provider/ethers@0.1.3", "@polyjuice-provider/ethers@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@polyjuice-provider/ethers/-/ethers-0.1.3.tgz#66ef2a0e06326e916dacc5e1ee1106012dd6ca9f"
   integrity sha512-WGu/l6bYLq8n/8WDL2JFp1bTTgayH/5z7uuwh6hlhkGLRK3Z+cU+UnTS8+N06oH8XRlD69v/VA5L3Dhvm9xouw==
@@ -1031,6 +1031,13 @@
     hosted-git-info "^2.6.0"
     path-browserify "^1.0.0"
     url "^0.11.0"
+
+"@rumblefishdev/hardhat-polyjuice-plugin@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@rumblefishdev/hardhat-polyjuice-plugin/-/hardhat-polyjuice-plugin-1.0.2.tgz#ba847ae78140b7bef07ede09e98815e9aa000bb6"
+  integrity sha512-tkCPAHMQviAePc6V1V1tmXl+EmeBjXAJDLQCBTsXOuXbUogIHoR6QdKumWT/1iK/1cVYcozAgGrzhyOtdCblRQ==
+  dependencies:
+    "@polyjuice-provider/ethers" "^0.1.3"
 
 "@sentry/core@5.30.0":
   version "5.30.0"
