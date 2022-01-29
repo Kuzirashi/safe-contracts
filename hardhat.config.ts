@@ -109,7 +109,17 @@ const userConfig: HardhatUserConfig = {
       godwokenConfig: {
         privateKey: '0xd9066ff9f753a1898709b568119055660a77d9aae4d7a4ad677b8fb3d2a571e5',
         rollupTypeHash: '0x4cc2e6526204ae6a2e8fcf12f7ad472f41a1606d5b9624beebd215d780809f6a',
-        ethAccountLockCodeHash: '0xdeec13a7b8e100579541384ccaf4b5223733e4a5483c3aec95ddc4c1d5ea5b22'
+        ethAccountLockCodeHash: '0xdeec13a7b8e100579541384ccaf4b5223733e4a5483c3aec95ddc4c1d5ea5b22',
+        delayAfterDeploy: 20000
+      }
+    },
+    'godwoken-mainnet': {
+      url: 'https://mainnet.godwoken.io/rpc',
+      godwokenConfig: {
+        privateKey: '',
+        rollupTypeHash: '0x40d73f0d3c561fcaae330eabc030d8d96a9d0af36d0c5114883658a350cb9e3b',
+        ethAccountLockCodeHash: '0x1563080d175bf8ddd44a48e850cecf0c0b4575835756eb5ffd53ad830931b9f9',
+        delayAfterDeploy: 20000
       }
     }
   },

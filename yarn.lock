@@ -1032,10 +1032,10 @@
     path-browserify "^1.0.0"
     url "^0.11.0"
 
-"@rumblefishdev/hardhat-polyjuice-plugin@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@rumblefishdev/hardhat-polyjuice-plugin/-/hardhat-polyjuice-plugin-1.0.2.tgz#ba847ae78140b7bef07ede09e98815e9aa000bb6"
-  integrity sha512-tkCPAHMQviAePc6V1V1tmXl+EmeBjXAJDLQCBTsXOuXbUogIHoR6QdKumWT/1iK/1cVYcozAgGrzhyOtdCblRQ==
+"@rumblefishdev/hardhat-polyjuice-plugin@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rumblefishdev/hardhat-polyjuice-plugin/-/hardhat-polyjuice-plugin-1.1.0.tgz#080cedd99d2ded31af886fe642fbd0141b6d15db"
+  integrity sha512-StT7Hig2kjh1zucRfSSpvwHdhfSXAzdu6rd3cxtnbLnblMvhw85WPNfPMT3BaQP+XZhm/EgAu+wHB+OsE6D59A==
   dependencies:
     "@polyjuice-provider/ethers" "^0.1.3"
 
